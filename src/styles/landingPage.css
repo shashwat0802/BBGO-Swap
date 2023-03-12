@@ -1,0 +1,23 @@
+.crypto-wrapper {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .crypto-text {
+  position: absolute;
+  top: 105px;
+} */
+
+.hoverable:hover {
+  background: linear-gradient(135.61deg, #f7138f 0%, #fba45a 101.09%);
+  border: 0;
+}
+
+#section-1-wrapper {
+  background: url('../img/section-1.svg');
+  background-position: center;
+  height: 100vh;
+}
