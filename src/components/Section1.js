@@ -67,7 +67,7 @@ export default function Section1() {
             BBGOSwap is a community-supported DEX with cross- chain liquidity,
             an IDO launchpad, and a focus on sustainability.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-center font-semibold my-8 ">
+          <div className="grid grid-cols-3  lg:grid-cols-5 text-center font-semibold my-8 ">
             <div className="crypto-wrapper">
               <img src={require('../img/eth.svg').default} alt="" />
               <p className="crypto-text">ETHEREUM</p>
@@ -81,14 +81,14 @@ export default function Section1() {
               <p className="crypto-text">BNB</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 lg:gap-12">
-            <button className="border-white border-solid border-2 rounded-lg hoverable my-8 lg:px-4 py-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 lg:gap-12 ">
+            <button className="border-white border-solid border-2 rounded-lg hoverable lg:px-4 lg:py-4 py-2 my-2">
               Launch DEX
             </button>
-            <button className="border-white border-solid border-2 rounded-lg  hoverable my-8 lg:px-4 py-4">
+            <button className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2">
               Launch IDO
             </button>
-            <button className="border-white border-solid border-2 rounded-lg  hoverable my-8 lg:px-4 py-4">
+            <button className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2">
               Whitepaper
             </button>
           </div>
