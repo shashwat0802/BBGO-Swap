@@ -38,3 +38,16 @@
   height: 37px;
   width: 37px;
 }
+
+#ido-section {
+  background-image: url('../img/ido-section.svg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#roadmap {
+  background-image: url('../img/roadmap.svg');
+  /* height: 200vh; */
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
