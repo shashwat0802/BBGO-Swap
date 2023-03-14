@@ -26,3 +26,15 @@
   background-image: url('../img/section-2.svg');
   background-position: center;
 }
+
+.footer {
+  background-image: url('../img/footer.svg');
+  background-position: center;
+}
+
+.footer-btn {
+  background: #333247;
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+}
