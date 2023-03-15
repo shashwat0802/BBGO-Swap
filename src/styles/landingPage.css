@@ -51,3 +51,14 @@
   background-position: 100% 100%;
   background-repeat: no-repeat;
 }
+
+#swap-section {
+  background-image: url('../img/swap-section.svg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hoverable-2:hover {
+  background: url('../img/hoverable-bg.svg') no-repeat;
+  background-position: 100% 100%;
+}
