@@ -16,6 +16,11 @@
   border: 0;
 }
 
+.hoverable:hover h2 {
+  color: #fff;
+  opacity: 0.2;
+}
+
 #section-1-wrapper {
   background: url('../img/section-1.svg');
   background-position: center;
@@ -61,4 +66,9 @@
 .hoverable-2:hover {
   background: url('../img/hoverable-bg.svg') no-repeat;
   background-position: 100% 100%;
+}
+
+.glow-bg {
+  background: linear-gradient(135.61deg, #f7138f 0%, #fba45a 101.09%);
+  border: 0;
 }

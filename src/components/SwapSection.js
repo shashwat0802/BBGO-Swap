@@ -2,14 +2,140 @@ import React from 'react';
 import '../styles/landingPage.css';
 
 export default function SwapSection() {
+  const activateCircle = (i) => {
+    let circle = document.querySelector(`#circle${i}`);
+    if (circle) {
+      circle.classList.add('glow-bg');
+    }
+  };
+
+  const deActivateCircle = (i) => {
+    let circle = document.querySelector(`#circle${i}`);
+    if (circle) {
+      circle.classList.remove('glow-bg');
+    }
+  };
+
   return (
     <section id="swap-section">
       <div className="container mx-auto w-[92%] p-12 md:p-24 text-white">
         <h1 className="text-2xl md:text-4xl font-semibold text-center mb-8">
           How To Setup Swap
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div></div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+          <div className="flex flex-col  justify-between">
+            <div className="flex justify-around items-center">
+              <div
+                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                onMouseOver={() => {
+                  activateCircle(1);
+                }}
+                onMouseLeave={() => {
+                  deActivateCircle(1);
+                }}
+              >
+                <h1 className="font-semibold text-2xl flex items-center">
+                  <img
+                    src={require('../img/wallet.svg').default}
+                    alt=""
+                    className="mr-4"
+                  />
+                  Connect wallet
+                </h1>
+                <h2 className="text-[#201F2D] text-5xl font-extrabold">01</h2>
+              </div>
+              <div className="flex flex-col  items-center">
+                <div
+                  className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
+                  id="circle1"
+                ></div>
+                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+              </div>
+            </div>
+            <div className="flex justify-around items-center">
+              <div
+                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                onMouseOver={() => {
+                  activateCircle(2);
+                }}
+                onMouseLeave={() => {
+                  deActivateCircle(2);
+                }}
+              >
+                <h1 className="font-semibold text-2xl flex items-center">
+                  <img
+                    src={require('../img/buy.svg').default}
+                    alt=""
+                    className="mr-4"
+                  />
+                  Set Up The Trade
+                </h1>
+                <h2 className="text-[#201F2D] text-5xl font-extrabold">02</h2>
+              </div>
+              <div className="flex flex-col  items-center">
+                <div
+                  className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
+                  id="circle2"
+                ></div>
+                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+              </div>
+            </div>
+            <div className="flex justify-around items-center">
+              <div
+                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                onMouseOver={() => {
+                  activateCircle(3);
+                }}
+                onMouseLeave={() => {
+                  deActivateCircle(3);
+                }}
+              >
+                <h1 className="font-semibold text-2xl flex items-center">
+                  <img
+                    src={require('../img/swap.svg').default}
+                    alt=""
+                    className="mr-4"
+                  />
+                  Swap Tokens
+                </h1>
+                <h2 className="text-[#201F2D] text-5xl font-extrabold">03</h2>
+              </div>
+              <div className="flex flex-col  items-center">
+                <div
+                  className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
+                  id="circle3"
+                ></div>
+                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+              </div>
+            </div>
+            <div className="flex justify-around items-center">
+              <div
+                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                onMouseOver={() => {
+                  activateCircle(4);
+                }}
+                onMouseLeave={() => {
+                  deActivateCircle(4);
+                }}
+              >
+                <h1 className="font-semibold text-2xl flex items-center">
+                  <img
+                    src={require('../img/Completion.svg').default}
+                    alt=""
+                    className="mr-4"
+                  />
+                  Completion
+                </h1>
+                <h2 className="text-[#201F2D] text-5xl font-extrabold">04</h2>
+              </div>
+              <div className="flex flex-col  items-center">
+                <div
+                  className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
+                  id="circle4"
+                ></div>
+              </div>
+            </div>
+          </div>
           <div>
             <img src={require('../img/swap-1.svg').default} alt="" />
           </div>
