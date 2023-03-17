@@ -18,15 +18,15 @@ export default function SwapSection() {
 
   return (
     <section id="swap-section">
-      <div className="container mx-auto w-[92%] p-12 md:p-24 text-white">
-        <h1 className="text-2xl md:text-4xl font-semibold text-center mb-8">
+      <div className="container mx-auto w-[92%] md:p-24 text-white">
+        <h1 className="text-lg md:text-2xl md:text-4xl font-semibold text-center my-8">
           How To Setup Swap
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-24">
           <div className="flex flex-col  justify-between">
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center my-2">
               <div
-                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                className="bg-[#333247] w-full md:w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
                 onMouseOver={() => {
                   activateCircle(1);
                 }}
@@ -34,27 +34,29 @@ export default function SwapSection() {
                   deActivateCircle(1);
                 }}
               >
-                <h1 className="font-semibold text-2xl flex items-center">
+                <h1 className="font-semibold text-lg md:text-2xl flex items-center">
                   <img
                     src={require('../img/wallet.svg').default}
                     alt=""
-                    className="mr-4"
+                    className="mr-1 md:mr-4"
                   />
                   Connect wallet
                 </h1>
-                <h2 className="text-[#201F2D] text-5xl font-extrabold">01</h2>
+                <h2 className="text-[#201F2D] text-2xl md:text-5xl font-extrabold">
+                  01
+                </h2>
               </div>
-              <div className="flex flex-col  items-center">
+              <div className="flex-col  items-center hidden md:flex">
                 <div
                   className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
                   id="circle1"
                 ></div>
-                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+                <div className="border border-[#333247] border-dashed w-px "></div>
               </div>
             </div>
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center my-2">
               <div
-                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                className="bg-[#333247] w-full md:w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
                 onMouseOver={() => {
                   activateCircle(2);
                 }}
@@ -62,27 +64,29 @@ export default function SwapSection() {
                   deActivateCircle(2);
                 }}
               >
-                <h1 className="font-semibold text-2xl flex items-center">
+                <h1 className="font-semibold text-lg md:text-2xl flex items-center">
                   <img
                     src={require('../img/buy.svg').default}
                     alt=""
-                    className="mr-4"
+                    className="mr-1 md:mr-4"
                   />
                   Set Up The Trade
                 </h1>
-                <h2 className="text-[#201F2D] text-5xl font-extrabold">02</h2>
+                <h2 className="text-[#201F2D] text-2xl md:text-5xl font-extrabold">
+                  02
+                </h2>
               </div>
-              <div className="flex flex-col  items-center">
+              <div className="flex-col  items-center hidden md:flex">
                 <div
                   className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
                   id="circle2"
                 ></div>
-                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+                <div className="border border-[#333247] border-dashed w-px "></div>
               </div>
             </div>
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center my-2">
               <div
-                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                className="bg-[#333247] w-full md:w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
                 onMouseOver={() => {
                   activateCircle(3);
                 }}
@@ -90,27 +94,29 @@ export default function SwapSection() {
                   deActivateCircle(3);
                 }}
               >
-                <h1 className="font-semibold text-2xl flex items-center">
+                <h1 className="font-semibold text-lg md:text-2xl flex items-center">
                   <img
                     src={require('../img/swap.svg').default}
                     alt=""
-                    className="mr-4"
+                    className="mr-1 md:mr-4"
                   />
                   Swap Tokens
                 </h1>
-                <h2 className="text-[#201F2D] text-5xl font-extrabold">03</h2>
+                <h2 className="text-[#201F2D] text-2xl md:text-5xl font-extrabold">
+                  03
+                </h2>
               </div>
-              <div className="flex flex-col  items-center">
+              <div className="flex-col  items-center hidden md:flex">
                 <div
                   className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
                   id="circle3"
                 ></div>
-                <div className="border border-[#333247] border-dashed w-px h-24"></div>
+                <div className="border border-[#333247] border-dashed w-px "></div>
               </div>
             </div>
-            <div className="flex justify-around items-center">
+            <div className="flex justify-around items-center my-2">
               <div
-                className="bg-[#333247] w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
+                className="bg-[#333247] w-full md:w-4/5 max-w-lg rounded-lg text-white flex justify-between items-center p-4 hoverable"
                 onMouseOver={() => {
                   activateCircle(4);
                 }}
@@ -118,17 +124,19 @@ export default function SwapSection() {
                   deActivateCircle(4);
                 }}
               >
-                <h1 className="font-semibold text-2xl flex items-center">
+                <h1 className="font-semibold text-lg md:text-2xl flex items-center">
                   <img
                     src={require('../img/Completion.svg').default}
                     alt=""
-                    className="mr-4"
+                    className="mr-1 md:mr-4"
                   />
                   Completion
                 </h1>
-                <h2 className="text-[#201F2D] text-5xl font-extrabold">04</h2>
+                <h2 className="text-[#201F2D] text-2xl md:text-5xl font-extrabold">
+                  04
+                </h2>
               </div>
-              <div className="flex flex-col  items-center">
+              <div className="flex-col  items-center hidden md:flex">
                 <div
                   className=" border border-2 border-[#333247] border-dashed rounded-full h-6 w-6 mt-8"
                   id="circle4"
@@ -141,7 +149,7 @@ export default function SwapSection() {
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 my-24 gap-24">
-          <h1 className="text-2xl md:text-4xl font-semibold">
+          <h1 className="text-lg md:text-2xl md:text-4xl font-semibold">
             Swap Any Token Easily With BBGOSWAP's Decentralized Exchange
           </h1>
           <p>

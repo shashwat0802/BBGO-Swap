@@ -1,0 +1,24 @@
+#coming-soon {
+  background: url('../img/soon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+
+@media (max-width: 425px) {
+  #coming-soon {
+    background: url('../img/soon-sm.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    height: 100vh;
+  }
+}
+
+.hover-btn {
+  background: linear-gradient(135.61deg, #f7138f 0%, #fba45a 101.09%);
+}
+[placeholder] {
+  text-overflow: ellipsis;
+}
