@@ -32,7 +32,12 @@ export default function ComingSoon() {
             <img src={require('../img/arrow.svg').default} alt="" />
           </button>
         </form>
-        <button className="bg-[#FBA45A] px-6 py-4 font-semibold rounded-lg">
+        <button
+          className="bg-[#FBA45A] px-6 py-4 font-semibold rounded-lg"
+          onClick={() => {
+            window.location.href = '/';
+          }}
+        >
           Back To Home
         </button>
         <div>

@@ -94,13 +94,28 @@ export default function Section1() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 md:gap-2 lg:gap-12 ">
-            <button className="border-white border-solid border-2 rounded-lg hoverable lg:px-4 lg:py-4 py-2 my-2">
+            <button
+              className="border-white border-solid border-2 rounded-lg hoverable lg:px-4 lg:py-4 py-2 my-2"
+              onClick={() => {
+                window.location.href = '/coming-soon';
+              }}
+            >
               Launch DEX
             </button>
-            <button className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2">
+            <button
+              className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2"
+              onClick={() => {
+                window.location.href = '/coming-soon';
+              }}
+            >
               Launch IDO
             </button>
-            <button className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2">
+            <button
+              className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2"
+              onClick={() => {
+                window.location.href = '/coming-soon';
+              }}
+            >
               Whitepaper
             </button>
           </div>
