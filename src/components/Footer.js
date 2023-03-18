@@ -8,64 +8,82 @@ export default function Footer() {
       <div className="container mx-auto w-[92%] ">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 p-4">
           <div className="flex justify-center">
-            <img
-              src={require('../img/logo.svg').default}
-              alt=""
-              className="lg:col-span-3"
-            />
+            <a href="#section-1">
+              <img
+                className="cursor-pointer"
+                src={require('../img/logo.svg').default}
+                alt="..."
+              />
+            </a>
           </div>
           <ul className="flex justify-around items-center font-semibold lg:col-start-5 lg:col-span-4">
             <li>
-              <Link className=" text-sm text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className=" text-sm text-[#A09FB0] hover:text-white"
+                href="#section-2"
+              >
                 Ecosystem
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className=" text-sm text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className=" text-sm text-[#A09FB0] hover:text-white"
+                href="#swap-section"
+              >
                 DEX
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className=" text-sm text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className=" text-sm text-[#A09FB0] hover:text-white"
+                href="#ido-section"
+              >
                 IDO
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className=" text-sm text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className=" text-sm text-[#A09FB0] hover:text-white"
+                href="#roadmap"
+              >
                 Roadmap
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className=" text-sm text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className=" text-sm text-[#A09FB0] hover:text-white"
+                href="https://bbgoswap.gitbook.io/docs/site."
+                target="_blank"
+              >
                 Docs
-              </Link>
+              </a>
             </li>
           </ul>
           <div className="flex justify-between items-center lg:col-span-2 lg:col-start-10">
-            <Link
-              to="#"
+            <a
+              href="#"
               className="footer-btn hoverable hover:text-white flex justify-center items-center"
             >
               <img src={require('../img/twitter.svg').default} alt="" />
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               className="footer-btn hoverable hover:text-white flex justify-center items-center"
             >
               <img src={require('../img/Discord.svg').default} alt="" />
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               className="footer-btn hoverable hover:text-white flex justify-center items-center"
             >
               <img src={require('../img/Telegram.svg').default} alt="" />
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#"
               className="footer-btn hoverable hover:text-white flex justify-center items-center"
             >
               <img src={require('../img/Medium.svg').default} alt="" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

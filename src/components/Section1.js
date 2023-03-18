@@ -14,38 +14,50 @@ export default function Section1() {
     <section id="section-1" className="container mx-auto w-[92%] ">
       <nav className="flex justify-between items-center mx-auto md:pt-4">
         <div>
-          <img
-            className="cursor-pointer"
-            src={require('../img/logo.svg').default}
-            alt="..."
-          />
+          <a href="#section-1">
+            <img
+              className="cursor-pointer"
+              src={require('../img/logo.svg').default}
+              alt="..."
+            />
+          </a>
         </div>
         <div className="nav-links duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] left-0 top-[-100%] lg:w-auto  w-full flex items-center px-5">
           <ul className="flex lg:flex-row flex-col lg:items-center lg:gap-[4vw] gap-8 font-semibold">
             <li>
-              <Link className="text-[#A09FB0] hover:text-white" to="#">
+              <a className="text-[#A09FB0] hover:text-white" href="#section-2">
                 Ecosystem
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className="text-[#A09FB0] hover:text-white"
+                href="#swap-section"
+              >
                 DEX
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className="text-[#A09FB0] hover:text-white"
+                href="#ido-section"
+              >
                 IDO
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-[#A09FB0] hover:text-white" to="#">
+              <a className="text-[#A09FB0] hover:text-white" href="#roadmap">
                 Roadmap
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="text-[#A09FB0] hover:text-white" to="#">
+              <a
+                className="text-[#A09FB0] hover:text-white"
+                href="https://bbgoswap.gitbook.io/docs/site."
+                target="_blank"
+              >
                 Docs
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
