@@ -1,19 +1,20 @@
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import '../styles/landingPage.css';
 
 export default function Section1() {
+  const [toggle, setToggle] = useState(false);
   const onToggleMenu = (e) => {
+    setToggle(!toggle);
     const navLinks = document.querySelector('.nav-links');
     e.name = e.name === 'menu' ? 'close' : 'menu';
-    navLinks.classList.toggle('top-[9%]');
+    navLinks.classList.toggle('left-[0%]');
   };
   return (
     <section id="section-1" className="container mx-auto w-[92%] ">
       <nav className="flex justify-between items-center mx-auto md:pt-4">
-        <div>
+        <div className="">
           <a href="#section-1">
             <img
               className="cursor-pointer"
@@ -22,16 +23,19 @@ export default function Section1() {
             />
           </a>
         </div>
-        <div className="nav-links duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] left-0 top-[-100%] lg:w-auto  w-full flex items-center px-5">
-          <ul className="flex lg:flex-row flex-col lg:items-center lg:gap-[4vw] gap-8 font-semibold">
+        <div className="nav-links duration-500 lg:static absolute lg:min-h-fit min-h-[100vh] top-[5%] left-[-100%] lg:w-auto w-full flex items-center md:px-5">
+          <ul className="flex lg:flex-row flex-col lg:items-center lg:gap-[4vw] gap-8 font-semibold bg-white md:bg-transparent h-[85vh] md:h-full px-8 py-4 ">
             <li>
-              <a className="text-[#A09FB0] hover:text-white" href="#section-2">
+              <a
+                className="text-black md:text-[#A09FB0] hover:text-white"
+                href="#section-2"
+              >
                 Ecosystem
               </a>
             </li>
             <li>
               <a
-                className="text-[#A09FB0] hover:text-white"
+                className="text-black md:text-[#A09FB0] hover:text-white"
                 href="#swap-section"
               >
                 DEX
@@ -39,20 +43,23 @@ export default function Section1() {
             </li>
             <li>
               <a
-                className="text-[#A09FB0] hover:text-white"
+                className="text-black md:text-[#A09FB0] hover:text-white"
                 href="#ido-section"
               >
                 IDO
               </a>
             </li>
             <li>
-              <a className="text-[#A09FB0] hover:text-white" href="#roadmap">
+              <a
+                className="text-black md:text-[#A09FB0] hover:text-white"
+                href="#roadmap"
+              >
                 Roadmap
               </a>
             </li>
             <li>
               <a
-                className="text-[#A09FB0] hover:text-white"
+                className="text-black md:text-[#A09FB0] hover:text-white"
                 href="https://bbgoswap.gitbook.io/docs/site."
                 target="_blank"
               >
@@ -66,7 +73,11 @@ export default function Section1() {
           name="menu"
           className="text-3xl cursor-pointer lg:hidden"
         >
-          <FontAwesomeIcon icon={faBars} className="text-white" />
+          {toggle ? (
+            <FontAwesomeIcon icon={faXmark} className="text-white" />
+          ) : (
+            <FontAwesomeIcon icon={faBars} className="text-white" />
+          )}
         </button>
       </nav>
       <div className="grid grid-col-12 md:grid-cols-2 md:mt-14 lg:mt-24">
