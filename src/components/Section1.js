@@ -68,7 +68,7 @@ export default function Section1() {
             </li>
           </ul>
         </div>
-        <button
+        {/* <button
           onClick={onToggleMenu}
           name="menu"
           className="text-3xl cursor-pointer lg:hidden"
@@ -78,7 +78,7 @@ export default function Section1() {
           ) : (
             <FontAwesomeIcon icon={faBars} className="text-white" />
           )}
-        </button>
+        </button> */}
       </nav>
       <div className="grid grid-col-12 md:grid-cols-2 md:mt-14 lg:mt-24">
         <div className="text-white ">
