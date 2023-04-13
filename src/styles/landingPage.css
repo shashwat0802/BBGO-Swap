@@ -72,3 +72,14 @@
   background: linear-gradient(135.61deg, #f7138f 0%, #fba45a 101.09%);
   border: 0;
 }
+
+.roadmap-card {
+  background: linear-gradient(
+    99.66deg,
+    rgba(255, 255, 255, 0.16) -1.18%,
+    rgba(255, 255, 255, 0.07) 109.79%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
