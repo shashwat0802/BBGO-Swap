@@ -8,7 +8,8 @@ export default function Roadmap() {
         <h1 className="text-white text-center text-2xl md:text-4xl font-extrabold mb-8">
           Roadmap
         </h1>
-        <div className="flex justify-around w-[50%]">
+        {/* laptop screen */}
+        <div className="flex justify-around w-[50%] hidden md:flex">
           <img src={require('../img/roadmap-lg.svg').default} alt="" />
           <div>
             <div className="roadmap-card px-10 py-2 mb-8">
@@ -46,6 +47,84 @@ export default function Roadmap() {
                 <li className="my-4">Analytics Page</li>
                 <li className="my-4">Governance Protocol Launch</li>
                 <li className="my-4">Platform extension</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {/* mobile and tab screen */}
+        <div className="roadmap-wrapper-sm flex md:hidden">
+          <div className="w-screen mx-6">
+            <img
+              src={require('../img/q2-2023.svg').default}
+              alt=""
+              className="mb-4"
+            />
+            <div className="roadmap-card-sm px-10 py-2 ">
+              <ul className="text-white font-semibold list-disc">
+                <li className="my-2 text-sm">Company Establishment</li>
+                <li className="my-2 text-sm">White Paper Release</li>
+                <li className="my-2 text-sm">Architecture design</li>
+                <li className="my-2 text-sm">Seed Private sale</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-screen mx-6">
+            <img
+              src={require('../img/q3-2023.svg').default}
+              alt=""
+              className="mb-4"
+            />
+            <div className="roadmap-card-sm px-10 py-2 ">
+              <ul className="text-white font-semibold list-disc">
+                <li className="my-2 text-sm">Company Establishment</li>
+                <li className="my-2 text-sm">White Paper Release</li>
+                <li className="my-2 text-sm">Architecture design</li>
+                <li className="my-2 text-sm">Seed Private sale</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-screen mx-6">
+            <img
+              src={require('../img/q4-2023.svg').default}
+              alt=""
+              className="mb-4"
+            />
+            <div className="roadmap-card-sm px-10 py-2 ">
+              <ul className="text-white font-semibold list-disc">
+                <li className="my-2 text-sm">Company Establishment</li>
+                <li className="my-2 text-sm">White Paper Release</li>
+                <li className="my-2 text-sm">Architecture design</li>
+                <li className="my-2 text-sm">Seed Private sale</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-screen mx-6">
+            <img
+              src={require('../img/q1-2023.svg').default}
+              alt=""
+              className="mb-4"
+            />
+            <div className="roadmap-card-sm px-10 py-2 ">
+              <ul className="text-white font-semibold list-disc">
+                <li className="my-2 text-sm">Company Establishment</li>
+                <li className="my-2 text-sm">White Paper Release</li>
+                <li className="my-2 text-sm">Architecture design</li>
+                <li className="my-2 text-sm">Seed Private sale</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-screen mx-6">
+            <img
+              src={require('../img/q2-2024.svg').default}
+              alt=""
+              className="mb-4"
+            />
+            <div className="roadmap-card-sm px-10 py-2 ">
+              <ul className="text-white font-semibold list-disc">
+                <li className="my-2 text-sm">Company Establishment</li>
+                <li className="my-2 text-sm">White Paper Release</li>
+                <li className="my-2 text-sm">Architecture design</li>
+                <li className="my-2 text-sm">Seed Private sale</li>
               </ul>
             </div>
           </div>
