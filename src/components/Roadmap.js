@@ -100,7 +100,7 @@ export default function Roadmap() {
           </div>
           <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
-              src={require('../img/q1-2023.svg').default}
+              src={require('../img/q1-2024.svg').default}
               alt=""
               className="mb-4"
             />
