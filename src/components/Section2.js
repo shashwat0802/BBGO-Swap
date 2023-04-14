@@ -16,8 +16,7 @@ export default function Section2() {
                 What makes BBGO DEX different?
               </h3>
               <p>
-                BBGOSWAP stands out from other DEXs with Cross-Chain Swaps,
-                Minimal Slippage, and Fast Transactions
+              BBGOSWAP stands out from other DEXs with Cross-Chain Swaps and Fast Transactions 
               </p>
             </div>
             <div className=" rounded-lg hoverable bg-[#333247] max-w-xl lg:p-6 p-4 my-2">
@@ -25,13 +24,6 @@ export default function Section2() {
               <p>
                 BBGOSWAP enables secure cross-chain token trading without
                 centralized control, streamlining digital asset transfers.
-              </p>
-            </div>
-            <div className=" rounded-lg hoverable bg-[#333247] max-w-xl lg:p-6 p-4 my-2">
-              <h3 className="text-2xl font-semibold my-4">Minimal Slippage</h3>
-              <p>
-                BBGOSWAP automates trades across multiple liquidity sources to
-                find the best token prices.
               </p>
             </div>
             <div className=" rounded-lg hoverable bg-[#333247] max-w-xl lg:p-6 p-4 my-2">

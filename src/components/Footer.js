@@ -52,7 +52,7 @@ export default function Footer() {
             <li>
               <a
                 className=" text-sm text-[#A09FB0] hover:text-white"
-                href="https://bbgoswap.gitbook.io/docs/site."
+                href="https://bbgoswap.gitbook.io/whitepaper"
                 target="_blank"
               >
                 Docs

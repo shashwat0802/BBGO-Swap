@@ -2,6 +2,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import '../styles/landingPage.css';
+import { Link } from 'react-router-dom';
 
 export default function Section1() {
   const [toggle, setToggle] = useState(false);
@@ -60,7 +61,7 @@ export default function Section1() {
             <li>
               <a
                 className="text-black md:text-[#A09FB0] hover:text-white"
-                href="https://bbgoswap.gitbook.io/docs/site."
+                href="https://bbgoswap.gitbook.io/whitepaper"
                 target="_blank"
               >
                 Docs
@@ -121,14 +122,12 @@ export default function Section1() {
             >
               Launch IDO
             </button>
-            <button
-              className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2"
-              onClick={() => {
-                window.location.href = '/coming-soon';
-              }}
+            <Link
+              className="border-white border-solid border-2 rounded-lg  hoverable lg:px-4 lg:py-4 py-2 my-2 text-center"
+              to="https://bbgoswap.gitbook.io/whitepaper"
             >
               Whitepaper
-            </button>
+            </Link>
           </div>
         </div>
       </div>
