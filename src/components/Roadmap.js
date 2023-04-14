@@ -76,10 +76,10 @@ export default function Roadmap() {
             />
             <div className="roadmap-card-sm px-10 py-2 ">
               <ul className="text-white font-semibold list-disc">
-                <li className="my-2 text-sm">Company Establishment</li>
-                <li className="my-2 text-sm">White Paper Release</li>
-                <li className="my-2 text-sm">Architecture design</li>
-                <li className="my-2 text-sm">Seed Private sale</li>
+              <li className="my-2 text-sm">DEX Aggregator Launch</li>
+                <li className="my-2 text-sm">Strategy Private sale</li>
+                <li className="my-2 text-sm">DEX Launchpad design</li>
+                <li className="my-2 text-sm">Public sale</li>
               </ul>
             </div>
           </div>
@@ -91,10 +91,9 @@ export default function Roadmap() {
             />
             <div className="roadmap-card-sm px-10 py-2 ">
               <ul className="text-white font-semibold list-disc">
-                <li className="my-2 text-sm">Company Establishment</li>
-                <li className="my-2 text-sm">White Paper Release</li>
-                <li className="my-2 text-sm">Architecture design</li>
-                <li className="my-2 text-sm">Seed Private sale</li>
+              <li className="my-2 text-sm">Aggregator & Launchpad integration</li>
+                <li className="my-2 text-sm">DEX Launchpad Launch</li>
+                <li className="my-2 text-sm">Crypto Wallet design</li>
               </ul>
             </div>
           </div>
@@ -106,10 +105,9 @@ export default function Roadmap() {
             />
             <div className="roadmap-card-sm px-10 py-2 ">
               <ul className="text-white font-semibold list-disc">
-                <li className="my-2 text-sm">Company Establishment</li>
-                <li className="my-2 text-sm">White Paper Release</li>
-                <li className="my-2 text-sm">Architecture design</li>
-                <li className="my-2 text-sm">Seed Private sale</li>
+              <li className="my-2 text-sm">DEX & Wallet integration</li>
+                <li className="my-2 text-sm">Crypto Wallet Launch</li>
+                <li className="my-2 text-sm">Governance design</li>
               </ul>
             </div>
           </div>
@@ -121,10 +119,9 @@ export default function Roadmap() {
             />
             <div className="roadmap-card-sm px-10 py-2 ">
               <ul className="text-white font-semibold list-disc">
-                <li className="my-2 text-sm">Company Establishment</li>
-                <li className="my-2 text-sm">White Paper Release</li>
-                <li className="my-2 text-sm">Architecture design</li>
-                <li className="my-2 text-sm">Seed Private sale</li>
+              <li className="my-2 text-sm">Analytics Page</li>
+                <li className="my-2 text-sm">Governance Protocol Launch</li>
+                <li className="my-2 text-sm">Platform extension</li>
               </ul>
             </div>
           </div>
