@@ -53,7 +53,7 @@ export default function Roadmap() {
         </div>
         {/* mobile and tab screen */}
         <div className="roadmap-wrapper-sm flex md:hidden">
-          <div className="w-screen mx-6">
+          <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
               src={require('../img/q2-2023.svg').default}
               alt=""
@@ -68,7 +68,7 @@ export default function Roadmap() {
               </ul>
             </div>
           </div>
-          <div className="w-screen mx-6">
+          <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
               src={require('../img/q3-2023.svg').default}
               alt=""
@@ -83,7 +83,7 @@ export default function Roadmap() {
               </ul>
             </div>
           </div>
-          <div className="w-screen mx-6">
+          <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
               src={require('../img/q4-2023.svg').default}
               alt=""
@@ -98,7 +98,7 @@ export default function Roadmap() {
               </ul>
             </div>
           </div>
-          <div className="w-screen mx-6">
+          <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
               src={require('../img/q1-2023.svg').default}
               alt=""
@@ -113,7 +113,7 @@ export default function Roadmap() {
               </ul>
             </div>
           </div>
-          <div className="w-screen mx-6">
+          <div className="flex flex-col items-center" style={{minWidth:'100vw'}}>
             <img
               src={require('../img/q2-2024.svg').default}
               alt=""
